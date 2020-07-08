@@ -1,0 +1,119 @@
+/* Fonts Import from fonts.css */
+@import url(./custom/fonts.css);
+
+/* Variables Import from Variables.css */
+@import url(./custom/variables.css);
+
+/* Global style Import from global.css */
+@import url(./custom/global.css);
+
+/* Header Section */
+#header_section {
+  background-color: #f0fff0;
+}
+
+/* Header Nav Section */
+
+.button-sign-in {
+  width: 150px;
+  line-height: 30px;
+  font: normal 700 16px/16px var(--pop-font);
+  background-color: var(--btn-color);
+  color: #f5f5f5 !important;
+  border-radius: 40px;
+  transition: background-color 0.6s ease;
+}
+
+.button-sign-in:active {
+  background-color: #02eb82;
+}
+
+#header_section #nav_section .container .navbar .navbar-nav .nav-link {
+  font: normal 500 16px/2px var(--rob-font);
+  text-transform: uppercase;
+  padding: 1.7rem;
+  color: #000;
+}
+
+#header_section #nav_section .container .navbar .navbar-nav .active {
+  background: var(--btn-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+#header_section #nav_section .container .navbar .navbar-nav a:hover {
+  background: var(--btn-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* #header_section
+  #nav_section
+  .container
+  .navbar
+  .navbar-nav
+  .nav-link:last-child {
+  margin-bottom: 0;
+  margin-top: -2rem;
+}
+ */
+/* Header Description Section */
+#header_section #header_description {
+  padding: 2rem 0;
+}
+#header_section #header_description .ready-to-learn-text {
+  color: var(--orange-text);
+}
+
+#header_section #header_description h1 {
+  color: #000;
+  font: normal 700 48px/70px var(--pop-font);
+}
+
+#header_section #header_description h1 .green-text {
+  color: #21b573;
+  font-size: 55px;
+  font-family: cursive;
+}
+
+#header_section #header_description .schedule-bottom-text {
+  font: normal 500 16px/36px var(--pop-font);
+  color: #6c6b6b;
+}
+
+/* Main Section */
+#main_section {
+  margin: 5rem 0;
+}
+
+/* Topic Section */
+
+#main_section .topic-section .container .row h4 {
+  /* margin-top: 4rem; */
+}
+
+#main_section .topic-section .container .row img {
+  margin-bottom: 40px;
+}
+
+#main_section .topic-section .container .row .icon-mb {
+  margin-bottom: 25px;
+}
+
+/* Online course section */
+
+#main_section .online_course_section .container .card-title {
+  color: #413960;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+#main_section .online_course_section .container .card-text {
+  color: #585859;
+}
+
+#main_section .online_course_section .container .card-footer {
+  border: none;
+}

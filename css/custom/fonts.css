@@ -1,0 +1,11 @@
+/* Roboto */
+@font-face {
+  font-family: "Roboto";
+  src: "../../fonts/Roboto/Roboto-Regular.ttf";
+}
+
+/* Poppins */
+@font-face {
+  font-family: "Poppins";
+  src: "../../fonts/Poppins/Poppins-Regular.ttf";
+}
