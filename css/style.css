@@ -71,7 +71,12 @@ body {
 /* Topic Section */
 
 #main_section .topic-section .container .row h4 {
-  /* margin-top: 4rem; */
+  color: #413960;
+  font-weight: 600;
+  font-size: 24px;
+}
+#main_section .topic-section .container .row p {
+  color: #585859;
 }
 
 #main_section .topic-section .container .row img {
@@ -99,6 +104,7 @@ body {
 
 #main_section .online_course_section .container .card-text {
   color: #585859;
+  height: 2rem;
 }
 
 #main_section .online_course_section .container .card-footer {
@@ -118,20 +124,29 @@ body {
   box-shadow: 0px 6px 9px 0px rgba(153, 147, 153, 1);
   border-radius: 5px;
   transition: transform 0.6s ease;
+  border-radius: 13px 13px 3px 3px;
 }
 
 #main_section .online_course_section .container .card:hover {
   transform: scale(1.1);
 }
 
+/* Testomonial Section */
+
+.testimonial_section {
+  margin: 10rem auto;
+}
+
+.testimonial_section .container h3 {
+  font-weight: bold;
+  font-size: 36px;
+}
+
 /* Footer Section */
 .footer_section {
   background-color: #282531;
   color: #ffffff;
-  padding: 5rem 5rem 0rem 5rem;
-
-  .footer_section .container-fluid {
-  }
+  padding: 3rem 0 1rem 0;
 }
 
 ul li {
@@ -141,11 +156,17 @@ ul li {
 }
 
 ul li a {
-  color: #ffffff;
+  color: #f5f5f5;
+}
+
+ul li a:hover {
+  text-decoration: none;
+  color: #21b573;
 }
 
 .bold-text {
   font-weight: 700;
+  /* font-size: 16px; */
 }
 
 .footer-text {
