@@ -26,14 +26,14 @@ body {
 }
 
 #header_section #nav_section .container .navbar .navbar-nav .active {
-  background: var(--btn-color);
+  background: var(--green-color);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
 
 #header_section #nav_section .container .navbar .navbar-nav a:hover {
-  background: var(--btn-color);
+  background: var(--green-color);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -53,7 +53,7 @@ body {
 }
 
 #header_section #header_description h1 .green-text {
-  color: #21b573;
+  color: var(--green-color);
   font-size: 55px;
   font-family: cursive;
 }
@@ -161,16 +161,15 @@ ul li a {
 
 ul li a:hover {
   text-decoration: none;
-  color: #21b573;
+  color: var(--green-color);
 }
 
 .bold-text {
   font-weight: 700;
-  /* font-size: 16px; */
 }
 
 .footer-text {
   padding-top: 2rem;
-  margin-bottom: 16px;
+  margin-bottom: 12px;
   color: #cdcdcd;
 }
